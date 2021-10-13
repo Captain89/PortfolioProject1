@@ -4,8 +4,15 @@
 
 }
 
-.hero {
-    background: image("assets/images/dog1.png") no-repeat;
+.hero-image {
+    background-image: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
 }
