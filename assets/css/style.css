@@ -1,13 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
-.d1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
-}
-
-.image-main {
-    size: 50%;
+.hero {
+    background: image("assets/images/dog1.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
