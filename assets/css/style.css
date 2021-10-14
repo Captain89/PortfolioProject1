@@ -4,6 +4,11 @@
 
 }
 
+.logo {
+    float: left;
+    size: 60px;
+}
+
 .hero-image {
     background-image: url(../images/dog1.png) no-repeat;
     background-image: linear-gradient(rgba(0,0,0,0.75)),(rgba(0,0,0,0.75));
@@ -17,9 +22,12 @@
     height: 80px;
     width: 100%;
     background: rgba(0,0,0,0.4);
+    
+    
 }
 
 .navbar {
     width: 10%;
     float: right;
+    display: inline-block;
 }   
