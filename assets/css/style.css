@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 
 }
 
 body {
-    font-family: ;
+    font-family: Roboto;
 }
 
 .logo {
@@ -18,6 +18,11 @@ body {
     color: white;
     font-family: Lobster, sans-serif;
     font-weight: 600;
+}
+
+.logo {
+    width: 120%;
+    cursor: pointer;
 }
 
 .hero-image {
@@ -33,6 +38,7 @@ body {
     height: 80px;
     width: 100%;
     background: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
     
     
 }
@@ -41,6 +47,8 @@ body {
     width: 10%;
     float: right;
     display: inline-block;
+    margin: 0 20px;
+    position: relative;
 
 }
 
@@ -48,4 +56,22 @@ body {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    font-size: 25px;
+}
+/*code used from youtube video for inspiration: https://www.youtube.com/watch?v=PgAZ8KzfhO8*/
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: lightslategrey;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+
 }
