@@ -92,5 +92,11 @@ body {
 }
 
 .header {
-    
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 33%;
 }
