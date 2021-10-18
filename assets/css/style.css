@@ -46,7 +46,6 @@ body {
 .navbar ul li {
     width: 10%;
     float: right;
-    display: inline-block;
     margin: 0 20px;
     position: relative;
 
