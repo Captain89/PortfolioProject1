@@ -4,38 +4,35 @@
 * {
     margin: 0%;
     padding: 0%;
+    border: none;
 
 }
 
 body {
     font-family: Roboto;
+    font-weight: 400;
 }
 
-.logo {
+/*headings and logo*/
+
+.logo h1 {
     float: left;
-    size: 300px;
+    margin-left: 2%;
+    size: 200px;
+    letter-spacing: 3px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: Lobster, sans-serif;
     font-weight: 600;
+    position: relative;
 }
 
 .hero-image {
-    background-image: url(../images/dog1.png) no-repeat;
-    background-image: linear-gradient(rgba(0,0,0,0.75)),(rgba(0,0,0,0.75));
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-position: center no-repeat;
+    width: 600%;
     height: 100%;
-}
-
-.navbar {
-    height: 80px;
-    width: 100%;
-    background: rgba(0,0,0,0.4);
-    background-blend-mode: darken;
-    
-    
+    position: relative;
+    display: flex;
 }
 
 .navbar ul li {
@@ -49,9 +46,9 @@ body {
 
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .navbar ul li::after {
@@ -70,21 +67,7 @@ body {
 
 }
 
-.social {
-    display: flex;
-}
-
-.social-icons {
-    list-style-type: none;
-    font-size: 3rem;
-    margin: 0 1.5rem;
-}
-
-.social-center {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-}
+/*center of site*/
 
 .row {
     width: 100%;
@@ -104,4 +87,22 @@ body {
 .card {
     display: inline-block;
     width: 33%;
+}
+
+/*footer*/
+
+.social {
+    display: flex;
+}
+
+.social-icons {
+    list-style-type: none;
+    font-size: 3rem;
+    margin: 0 1.5rem;
+}
+
+.social-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
