@@ -15,26 +15,15 @@ body {
 
 /*headings and logo*/
 
-.logo h1 {
+#logo h1 {
     float: left;
     margin-left: 2%;
-    size: 200px;
+    size: 300px;
     letter-spacing: 3px;
     text-decoration: none;
     color: black;
     font-family: Lobster, sans-serif;
-    font-weight: 600;
     position: relative;
-}
-
-/*hero image*/
-
-.hero-image {
-    background-position: center no-repeat;
-    width: 600%;
-    height: 100%;
-    position: relative;
-    display: flex;
 }
 
 /*navbar right menu*/
@@ -75,9 +64,20 @@ body {
 
 }
 
-.logo, .navbar {
+#logo, .navbar {
     line-height: 80px;
 }
+
+/*hero image*/
+
+.hero-image {
+    background-position: center no-repeat;
+    width: 600%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
 
 /*center of site*/
 
