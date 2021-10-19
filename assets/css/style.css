@@ -101,6 +101,11 @@ body {
     width: 33%;
 }
 
+#box1 {
+    border: black;
+    box-sizing: 20px;
+}
+
 /*footer*/
 
 .social {
