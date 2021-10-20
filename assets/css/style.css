@@ -85,6 +85,8 @@ body {
 .row {
     width: 100%;
     display: block;
+    background-color: black;
+    color: whitesmoke;
 }
 
 .row h1 {
