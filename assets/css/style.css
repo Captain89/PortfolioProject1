@@ -17,12 +17,12 @@ body {
 
 #logo h1 {
     float: left;
-    margin-left: 2%;
-    size: 300px;
+    margin-left: 5%;
+    font-size: 275%;
     letter-spacing: 3px;
     text-decoration: none;
     color: black;
-    font-family: Lobster, sans-serif;
+    font-family: Lobster, roboto;
     position: relative;
 }
 
@@ -49,7 +49,7 @@ body {
 
 .navbar ul li::after {
     content: '';
-    height: 3px;
+    height: 10px;
     width: 0;
     background: lightslategrey;
     position: absolute;
@@ -71,7 +71,7 @@ body {
 /*hero image*/
 
 .hero-image {
-    background-position: center no-repeat;
+    background-position: center center no-repeat;
     width: 600%;
     height: 100%;
     position: relative;
