@@ -42,7 +42,8 @@ body {
 .navbar ul li a {
     font-family: roboto;
     font-size: 140%;
-    color: rgb(60, 60, 60);
+    font-weight: normal;
+    color: rgb(70, 70, 70);
     text-decoration: none;
     display: flex;
 }
@@ -101,7 +102,6 @@ body {
 }
 
 .row p {
-    font: bold;
     font-size: 19px;
     margin-left: 10%;
     margin-right: 10%;
@@ -219,14 +219,29 @@ body {
     display: flex;
 }
 
+.social ul li a {
+    color: rgb(53, 53, 53);
+}
+
 .social-icons {
     list-style-type: none;
     font-size: 3rem;
     margin: 0 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
 }
 
 .social-center {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    
+}
+
+#span {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
 }
