@@ -238,10 +238,3 @@ body {
     display: flex;
     
 }
-
-#span {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    position: relative;
-}
