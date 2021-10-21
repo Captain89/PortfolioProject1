@@ -10,10 +10,11 @@
 
 body {
     font-family: Roboto;
-    font-weight: 400;
+    font-weight: 300;
+    overflow-x: hidden;
 }
 
-/*headings and logo*/
+/*heading and logo*/
 
 #logo h1 {
     float: left;
@@ -77,7 +78,7 @@ body {
     height: 100%;
     position: relative;
     display: flex;
-    background-size: cover;
+
 }
 
 #img-text {
@@ -94,7 +95,7 @@ body {
 }
 
 
-/*center of site*/
+/*about us*/
 
 .row {
     width: 100%;
@@ -114,6 +115,8 @@ body {
     text-align: center;
 }
 
+/*Join in section*/
+
 .card {
     display: inline-block;
     width: 33%;
@@ -121,31 +124,36 @@ body {
 
 #card1 {
     display: inline-flex;
-    margin-left: 33%;
+    margin-left: 20%;
     margin-right: auto;
-    width: 100%;
+    width: 70%;
+    height: 500px;
+    background: url(../images/pexels-dominika-roseclay-1076122.jpg) no-repeat center / cover;
+    border-radius: 8px;
 }
 
 
 #card2 {
     display: inline-flex;
-    margin-left: 33%;
+    margin-left: 20%;
     margin-right: auto;
-    width: 100%;
+    width: 70%;
+    height: 500px;
+    background: url(../images/pexels-johann-1254140.jpg) no-repeat center / cover;
+    border-radius: 8px;
 }
 
 #card3 {
     display: inline-flex;
-    margin-left: 33%;
+    margin-left: 20%;
     margin-right: auto;
-    width: 100%;
+    width: 70%;
+    height: 500px;
+    background: url(../images/pexels-megan-markham-2449533.jpg) no-repeat center / cover;
+    border-radius: 8px;
 }
 
 
-#box1 {
-    border: black;
-    box-sizing: 20px;
-}
 
 /*contact-form section*/
 
