@@ -49,8 +49,7 @@ body {
 }
 
 
-#logo,
-.navbar {
+#logo, .navbar {
     line-height: 80px;
 }
 
@@ -149,6 +148,11 @@ body {
     height: 500px;
     background: url(../images/pexels-dominika-roseclay-1076122.jpg) no-repeat center / cover;
     border-radius: 8px;
+}
+
+#card1 {
+    font-family: roboto;
+    font-size: 20px;
 }
 
 
