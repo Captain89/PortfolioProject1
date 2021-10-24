@@ -176,7 +176,7 @@ body {
     width: 130px;
     height: 180px;
     border-radius: 2px;
-    background-color: rgba(255, 140, 105, 0.2);
+    background-color: rgba(255, 140, 105, 0.3);
 }
 
 #woods {
@@ -185,19 +185,20 @@ body {
     width: 130px;
     height: 190px;
     border-radius: 2px;
-    background-color: rgba(255, 140, 105, 0.1);
+    background-color: rgba(255, 140, 105, 0.3);
 }
 
 #city {
     width: 130px;
     height: 180px;
     border-radius: 2px;
-    background-color: rgba(255, 140, 105, 0.2);
+    background-color: rgba(255, 140, 105, 0.5);
 }
 
 #card2 h3 {
     color: #fafafa;
     text-shadow: rgb(53, 53, 53);
+    margin-left: 100px;
 }
 
 /*cards themselves*/
