@@ -154,7 +154,7 @@ body {
 
 .card h4 {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: roboto, Helvetica, sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
     flex-direction: column;
@@ -164,31 +164,44 @@ body {
     margin-top: 5%;
 }
 
-#bay {
+#card-text {
     margin-top: 50px;
     margin-right: 350px;
+    margin-left: 10px;
     position: absolute;
+
+}
+
+#bay {
+    width: 130px;
+    height: 180px;
+    border-radius: 2px;
+    background-color: rgba(255, 140, 105, 0.2);
 }
 
 #woods {
     color: #fafafa;
     text-shadow: rgb(53, 53, 53);
-    margin-top: 50px;
-    margin-right: 350px;
-    position: absolute;
+    width: 130px;
+    height: 190px;
+    border-radius: 2px;
+    background-color: rgba(255, 140, 105, 0.1);
 }
 
 #city {
-    margin-top: 60px;
-    margin-left: 10px;
-    margin-right: 350px;
-    position: absolute;
+    width: 130px;
+    height: 180px;
+    border-radius: 2px;
+    background-color: rgba(255, 140, 105, 0.2);
 }
 
 #card2 h3 {
     color: #fafafa;
     text-shadow: rgb(53, 53, 53);
 }
+
+/*cards themselves*/
+
 
 #card1 {
     display: inline-flex;
