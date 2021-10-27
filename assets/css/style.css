@@ -49,6 +49,10 @@ body {
     display: flex;
 }
 
+.navbar ul li a:hover {
+    font-weight: 800;
+}
+
 
 #logo, .navbar {
     line-height: 80px;
@@ -176,7 +180,7 @@ body {
 
 
 #bay {
-    width: 130px;
+    max-width: 130px;
     height: 150px;
     border-radius: 2px;
     background-color: rgba(255, 140, 105, 0.4);
@@ -185,7 +189,7 @@ body {
 #woods {
     color: #fafafa;
     text-shadow: rgb(53, 53, 53);
-    width: 130px;
+    max-width: 130px;
     height: 150px;
     margin-left: 315px;
     border-radius: 2px;
@@ -194,7 +198,7 @@ body {
 }
 
 #city {
-    width: 130px;
+    max-width: 130px;
     height: 150px;
     border-radius: 2px;
     background-color: rgba(255, 140, 105, 0.5);
@@ -284,6 +288,11 @@ body {
     font-family: roboto;
     margin-top: 15px;
     border-radius: 8px;
+}
+
+.submit:hover {
+    font-weight: 800;
+    color: darkslateblue;
 }
 
 /*footer*/
