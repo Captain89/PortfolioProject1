@@ -329,3 +329,12 @@ textarea {
     position: static;
 }
 
+.navbar ul li {
+    max-width: 100%;
+    margin-right: 1.5rem;
+    position: relative;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+
