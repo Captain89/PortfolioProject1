@@ -212,6 +212,16 @@ body {
     float: right;
 }
 
+/*cards themselves*/
+
+.card-content {
+    display: inline-flex;
+    margin-right: auto;
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+}
+
 
 #card1 {
     background: url(../images/pexels-dominika-roseclay-1076122.jpg) no-repeat center / cover;
