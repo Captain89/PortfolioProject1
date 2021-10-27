@@ -88,12 +88,6 @@ body {
     padding-bottom: 3rem;
 }
 
-input,
-select,
-textarea {
-    width: 100%;
-}
-
 #about-us {
     padding-top: 1rem;
     font-size: 47px;
@@ -258,6 +252,12 @@ textarea {
     color: whitesmoke;
 }
 
+input,
+select,
+textarea {
+    width: 100%;
+}
+
 #enquiry-form {
     font-size: 25px;
     display: flex;
@@ -344,7 +344,6 @@ textarea {
     font-family: lobster;
     letter-spacing: 3px;
     margin: 5rem 0 0 0;
-   
     position: absolute;
     background: aliceblue;
 }
