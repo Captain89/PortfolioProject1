@@ -315,7 +315,6 @@ textarea {
     .card {
         width: 100%;
     }
-}
 
 #logo h1 {
     font-size: 2rem;
@@ -337,4 +336,16 @@ textarea {
     list-style-type: none;
 }
 
-
+#img-text {
+    text-align: center;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: lobster;
+    letter-spacing: 3px;
+    margin: 5rem 0 0 0;
+   
+    position: absolute;
+    background: aliceblue;
+}
+}
