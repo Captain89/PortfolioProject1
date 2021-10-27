@@ -85,6 +85,7 @@ body {
 /*about us*/
 
 #about-us {
+    padding-top: 1rem;
     font-size: 47px;
     font-family: lobster, roboto;
     letter-spacing: 1px;
@@ -92,17 +93,18 @@ body {
     margin-bottom: 3%
 }
 
+/*background Div block containing text and header*/
 
 .row {
-    width: 100%;
-    height: 60vh;
+    width: 90%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    display: block;
     border-radius: 20px;
     background-color: rgb(70, 70, 70);
     color: whitesmoke;
 }
+/*paragraph text in about us section*/
 
 .row p {
     font-size: 19px;
@@ -168,10 +170,7 @@ body {
 }
 
 #card-text {
-    margin-top: 50px;
-    margin-right: 350px;
-    margin-left: 10px;
-    position: absolute;
+    margin-left: auto;
 
 }
 
