@@ -88,6 +88,12 @@ body {
     padding-bottom: 3rem;
 }
 
+input,
+select,
+textarea {
+    width: 100%;
+}
+
 #about-us {
     padding-top: 1rem;
     font-size: 47px;
@@ -302,3 +308,12 @@ body {
     display: flex;
     
 }
+
+/*media queries section*/
+
+@media only screen and (max-width: 790px) {
+    .card {
+        width: 100%;
+    }
+
+    
