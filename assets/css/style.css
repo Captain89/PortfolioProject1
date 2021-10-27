@@ -7,6 +7,7 @@
     border: none;
 
 }
+/*main body*/
 
 body {
     font-family: roboto;
@@ -34,7 +35,7 @@ body {
 .navbar ul li {
     max-width: 100%;
     float: right;
-    margin-right: 150px;
+    margin-right: 3rem;
     position: relative;
     display: flex;
     list-style-type: none
