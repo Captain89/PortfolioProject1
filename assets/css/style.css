@@ -142,6 +142,8 @@ body {
     margin-bottom: 7%;
 }
 
+/*card section*/
+
 .card {
     display: inline-block;
     width: 33%;
@@ -174,7 +176,8 @@ body {
 
 }
 
-/*Inspiration for square opacity block (salmon color) taken from Code-Institute Love Running Walkthrough Project, 'Hero image' section, third video*/
+/*Inspiration for square opacity block (salmon color) taken from Code-Institute Love Running Walkthrough Project, 
+'Hero image' section, third video*/
 
 
 #bay {
@@ -185,11 +188,8 @@ body {
 }
 
 #woods {
-    color: #fafafa;
-    text-shadow: rgb(53, 53, 53);
     max-width: 130px;
     height: 150px;
-    margin-left: 315px;
     border-radius: 2px;
     background-color: rgba(255, 140, 105, 0.4);
     
@@ -205,42 +205,24 @@ body {
 #card2 h3 {
     color: #fafafa;
     text-shadow: rgb(53, 53, 53);
-    margin-left: 215px;
     float: right;
 }
 
-/*cards themselves*/
-
 
 #card1 {
-    display: inline-flex;
-    margin-left: 17%;
-    margin-right: auto;
-    width: 70%;
-    height: 500px;
     background: url(../images/pexels-dominika-roseclay-1076122.jpg) no-repeat center / cover;
-    border-radius: 8px;
+    
 }
 
 
 #card2 {
-    display: inline-flex;
-    margin-left: 17%;
-    margin-right: auto;
-    width: 70%;
-    height: 500px;
     background: url(../images/pexels-johann-1254140.jpg) no-repeat center / cover;
-    border-radius: 8px;
+    
 }
 
 #card3 {
-    display: inline-flex;
-    margin-left: 17%;
-    margin-right: auto;
-    width: 70%;
-    height: 500px;
     background: url(../images/pexels-megan-markham-2449533.jpg) no-repeat center / cover;
-    border-radius: 8px;
+  
 }
 
 
