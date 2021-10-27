@@ -56,7 +56,8 @@
                 section below, these are updated weekly if there are any changes our guests need to be aware of.
                 <br>
                 <br>
-                Bookings/ Registrations can be made below in our <a href="#contact" onclick="window.location.href = '#contact';">Contact</a> section. We are able to
+                Bookings/ Registrations can be made below in our <a href="#contact"
+                    onclick="window.location.href = '#contact';">Contact</a> section. We are able to
                 meet our
                 walkers and their dogs at a local 'Meet Me' station on each walk where there will be some refreshments
                 provided including Tea, Coffee, Healthy Doggy Treats and Fresh Water, before we start
@@ -78,11 +79,11 @@
                 <div id="card1">
                     <h3>Beach Walk</h3>
                     <div id="card-text">
-                    <div id="bay">
-                    <h4>Bracelet Bay.</h4>
-                    <h4>Monday</h4>
-                    <h4>5pm-6pm</h4>
-                    </div>
+                        <div id="bay">
+                            <h4>Bracelet Bay.</h4>
+                            <h4>Monday</h4>
+                            <h4>5pm-6pm</h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,11 +91,11 @@
                 <div id="card2">
                     <h3>Woodland Walk</h3>
                     <div id="card-text">
-                    <div id="woods">
-                    <h4>Clyne Woods.</h4>
-                    <h4>Thursday</h4>
-                    <h4>5pm-6pm</h4>
-                    </div>
+                        <div id="woods">
+                            <h4>Clyne Woods.</h4>
+                            <h4>Thursday</h4>
+                            <h4>5pm-6pm</h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -102,11 +103,11 @@
                 <div id="card3">
                     <h3>City Walk</h3>
                     <div id="card-text">
-                    <div id="city">
-                    <h4>City Center.</h4>
-                    <h4>Sunday</h4>
-                    <h4>10am-11am</h4>
-                    </div>
+                        <div id="city">
+                            <h4>City Center.</h4>
+                            <h4>Sunday</h4>
+                            <h4>10am-11am</h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -118,32 +119,34 @@
         <div class="header">
             <h2 id="contact">Contact<h2><br>
         </div>
+        <div id="form-wrap">
+            <div id="enquiry-form">
+                <form action="#">
 
-        <div class="enquiry-form">
-            <form action="action_send">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="first name" required>
 
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="first name" required>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="last name" required>
 
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="last name" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="email address" required>
 
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" placeholder="email address" required>
+                    <label for="Enquiry">Enquiry</label>
+                    <select id="enquiry" name="enquiry">
+                        <option value="Bookings">Book with us</option>
+                        <option value="Breed-Safety">Breed Safety Information</option>
+                        <option value="Equipment-Rental">Equipment Rental</option>
+                    </select>
 
-                <label for="Enquiry">Enquiry</label>
-                <select id="enquiry" name="enquiry">
-                    <option value="Bookings">Book with us</option>
-                    <option value="Breed-Safety">Breed Safety Information</option>
-                    <option value="Equipment-Rental">Equipment Rental</option>
-                </select>
+                    <label for="Questions">Questions?</label>
+                    <textarea id="question" name="question" placeholder="Type here" style="height:200px"
+                        required></textarea>
 
-                <label for="General-Enquiry">General Enquiry</label>
-                <textarea id="enquiry" name="enquiry" placeholder="Type here" style="height:200px" required></textarea>
+                    <input type="submit" value="Submit" class="submit">
 
-                <input type="submit" value="Submit" class="submit">
-
-            </form>
+                </form>
+            </div>
         </div>
     </section>
 
