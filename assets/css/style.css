@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*import links from google fonts, for lobster and roboto fonts*/
 
 * {
     margin: 0%;
@@ -11,12 +12,11 @@
 
 body {
     font-family: roboto;
-    font-weight: 300;
     overflow-x: hidden;
     position: relative;
 }
 
-/*heading and logo*/
+/*main site logo situated top left of page, and middle of page if viewing on a mobile device*/
 
 #logo h1 {
     float: left;
@@ -41,6 +41,8 @@ body {
     list-style-type: none
 }
 
+/*navbar individual list items links, clickable interactive menu links*/
+
 .navbar ul li a {
     font-family: roboto;
     font-size: 140%;
@@ -50,10 +52,13 @@ body {
     display: flex;
 }
 
+/*menu links group action, hover animation*/
+
 .navbar ul li a:hover {
     font-weight: 800;
 }
 
+/*logo, navbar line height instruction set*/
 
 #logo, .navbar {
     line-height: 80px;
@@ -70,6 +75,8 @@ body {
 
 }
 
+/*overlay text on main landing page image*/
+
 #img-text {
     text-align: center;
     color: rgb(125, 125, 125);
@@ -82,11 +89,15 @@ body {
 }
 
 
-/*about us*/
+/*about us section*/
+
+/*background box div with about us main text, used to help contain and style text to fit within larger grey styled container*/
 
 #box1 {
     padding-bottom: 3rem;
 }
+
+/*main about us text content*/
 
 #about-us {
     padding-top: 1rem;
@@ -97,7 +108,7 @@ body {
     margin-bottom: 3%
 }
 
-/*background Div block containing text and header*/
+/*background Div block containing text and header for about us section*/
 
 .row {
     width: 90%;
@@ -108,13 +119,15 @@ body {
     background-color: rgb(70, 70, 70);
     color: whitesmoke;
 }
-/*paragraph text in about us section*/
+/*main paragraph text in about us section*/
 
 .row p {
     font-size: 19px;
     margin-left: 10%;
     margin-right: 10%;
 }
+
+/*targeted links 'join in' and 'contact' styling, housed within the about us section body of text*/
 
 .row p a {
     color: inherit;
@@ -123,6 +136,8 @@ body {
     font-style: italic;
     font-weight: bold;
 }
+
+/*main about us section h1 styling*/
 
 .row h1 {
     width: 100%;
@@ -137,6 +152,8 @@ body {
     width: 100%;
     text-align: center;
 }
+
+/*main heading of join in section*/
 
 #join-in {
     font-size: 50px;
@@ -154,6 +171,7 @@ body {
     box-sizing: border-box;
     line-height: inherit;
 }
+/*targeted main headings of each card*/
 
 .card h3 {
     font-size: 35px;
@@ -162,6 +180,7 @@ body {
     margin-left: 3%;
 
 }
+/*targeted script within each card*/
 
 .card h4 {
     font-size: 20px;
@@ -175,6 +194,8 @@ body {
     margin-top: 5%;
 }
 
+/*card text content margin styling*/
+
 #card-text {
     margin-left: auto;
 
@@ -183,6 +204,7 @@ body {
 /*Inspiration for square opacity block (salmon color) taken from Code-Institute Love Running Walkthrough Project, 
 'Hero image' section, third video*/
 
+/*styling below for #bay, woods, city*/
 
 #bay {
     max-width: 130px;
@@ -208,12 +230,14 @@ body {
     background-color: rgba(255, 140, 105, 0.5);
 }
 
+/*opposite color scheme from black text to white in middle woodland walk card, to make more legible, styling below*/
+
 #card2 h3 {
     color: #fafafa;
     text-shadow: rgb(53, 53, 53);
 }
 
-/*cards themselves*/
+/*cards themselves group sizing*/
 
 .card-content {
     display: inline-flex;
@@ -223,6 +247,7 @@ body {
     border-radius: 8px;
 }
 
+/*card image links used from pexels.com free image site*/
 
 #card1 {
     background: url(../images/pexels-dominika-roseclay-1076122.jpg) no-repeat center / cover;
@@ -244,6 +269,8 @@ body {
 
 /*contact-form section*/
 
+/*contact form title heading*/
+
 #contact-form h2 {
     font-size: 50px;
     font-family: lobster, roboto;
@@ -251,6 +278,7 @@ body {
     margin-bottom: 3%
 }
 
+/*main background grey block, keeping with color theme of about us section, used in contact section*/
 
 #contact-form {
     width: 100%;
@@ -264,11 +292,15 @@ body {
     color: whitesmoke;
 }
 
+/*immediately below is group level styling and behaviour rules for the text input boxes*/
+
 input,
 select,
 textarea {
     width: 100%;
 }
+
+/*part of main contact form, the enquiry form section targets the 'enquiry word section and below, of the whole form*/
 
 #enquiry-form {
     font-size: 25px;
@@ -280,9 +312,13 @@ textarea {
     position: relative;
 }
 
+/*div that contains the whole form section*/
+
 #form-wrap {
     margin-bottom: 20px;
 }
+
+/*submit button at base of form*/
 
 .submit {
     font-size: 25px;
@@ -290,20 +326,28 @@ textarea {
     border-radius: 8px;
 }
 
+/*submit behaviour*/
+
 .submit:hover {
     font-weight: 800;
     color: darkslateblue;
 }
 
-/*footer*/
+/*footer section*/
+
+/*display' behaviour for the three social links*/
 
 .social {
     display: flex;
 }
 
+/*targeted color for each social link*/
+
 .social ul li a {
     color: rgb(53, 53, 53);
 }
+
+/*social icons themselves, style and responsive behaviour*/
 
 .social-icons {
     list-style-type: none;
@@ -328,6 +372,8 @@ textarea {
         width: 100%;
     }
 
+/*main site logo media query*/
+
 #logo h1 {
     font-size: 2rem;
     letter-spacing: 3px;
@@ -340,6 +386,8 @@ textarea {
     position: static;
 }
 
+/*navbar menu links media query*/
+
 .navbar ul li {
     max-width: 100%;
     margin-right: 1.5rem;
@@ -347,6 +395,9 @@ textarea {
     display: inline-flex;
     list-style-type: none;
 }
+
+/*media query for image text overlay on mian hero image section, 
+converts to user-friendly strip across the page to make the text more legible*/
 
 #img-text {
     text-align: center;
