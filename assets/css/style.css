@@ -79,12 +79,14 @@ body {
 
 #img-text {
     text-align: center;
-    color: rgb(125, 125, 125);
+    color: rgb(50, 50, 50);
     font-size: 30px;
     font-weight: bold;
     font-family: lobster;
     letter-spacing: 3px;
     margin-top: 300px;
+    margin-left: 30px;
+    opacity: 0.9;
     position: absolute;
 }
 
