@@ -14,20 +14,20 @@ The website is targeted at dog owners who want to join in social walks with othe
 
     The fully responsive navigation bar includes the main logo which links back to the main website page itself, and also three other menu links: About us, Join in, and Contact. The links are highlighted bold with css animation when hovered over, and each link will take the user to the associated area of the site.
 
-<img src="/workspace/PortfolioProject1/assets/docs/screenshots/navbar.PNG">
+![Navigation bar screenshot](assets/docs/screenshots/navbar.PNG)
 
 
 * The landing page image:
 
     The main landing page features an image of our beach walk, with some text overlay over the image to provide a useful 'hint' or 'nod' as to what the aim of the site is about.
 
-<img src="/workspace/PortfolioProject1/assets/docs/screenshots/landingpage.PNG">
+![Landing page screenshot](assets/docs/screenshots/landingpage.PNG)
 
 * About Us Section:
 
     The about us section is the main body of text for the website, housed in an eye catching, easy to read container that helps explain who we are, and what we do. Also inside the text section are two links, one to the 'Join in' section, and the other to the 'Contact' section. The site user is encouraged to read the about us content, as it is short and to the point, providing the user with an instant understanding of what services the site aims to provide, and to book a walk using the contact section below.
 
-<img src="/workspace/PortfolioProject1/assets/docs/screenshots/aboutus.PNG">
+![About us screenshot](assets/docs/screenshots/aboutus.PNG)
 
 * Join In Section:
 
@@ -40,7 +40,7 @@ The website is targeted at dog owners who want to join in social walks with othe
 
     It is noted that inspiration for this style of block, and its opacity layout was used from the Code Institute Love Running walkthrough project, 'Hero Image' section, Third video.
 
-<img src="/workspace/PortfolioProject1/assets/docs/screenshots/join-in.PNG">
+![Join in screenshot](assets/docs/screenshots/join-in.PNG)
 
 * Contact Section:
 
@@ -50,7 +50,7 @@ The website is targeted at dog owners who want to join in social walks with othe
 
     The form also contains validation in the HTML, so the user cant submit an empty form, or any false email address.
 
-<img src="/workspace/PortfolioProject1/assets/docs/screenshots/contact.PNG">
+![Contact screenshot](assets/docs/screenshots/contact.PNG)
 
 * Footer Section:
 
@@ -58,7 +58,7 @@ The website is targeted at dog owners who want to join in social walks with othe
 
     It is to be noted that the images used for the external site links were taken from [FontAwesome.com](https://fontawesome.com/), also in the bottom left corner of the site sits a copyright infringment logo, inspiration for this was used from the site: https://careerkarma.com/blog/html-copyright-symbol/ however the exact code itself was not copied and pasted.
 
-<img src="/workspace/PortfolioProject1/assets/docs/screenshots/footer.PNG">
+![Footer screenshot](assets/docs/screenshots/footer.PNG)
 
 * Features left to implement:
 
