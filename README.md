@@ -77,6 +77,29 @@ Browsers that were not checked that will be part of ongoing site maintenance inc
 
 The reason for this is to ensure users have a broader scale of ease of access, when using their preferred browser.
 
+Currently, the site looks more visually appealing on devices with screen width between 8" to 15.6" in a widescreen format, 16.9 ratio. If the user however is to only view the site on a mobile platform, (because that might be all they have at the time), the site is displayed very well, due to its responsiveness, but can seem unfinished with the menu navigation bar links not stacking as originally intended. They still display nicely, but in horizontal format rather than vertical beneath the site logo.
+
+Furthermore, the Join in section 'Cards' stack upon each other when the screen width is reduced as intended, but when pushed less than the absolute minimum of 306 pixels wide, the content displays out of bounds and glitches/ errors on screen. The current minimum screen size is reccomended at 320 x 568 (iphone 5 dimensions).
+
+## Validator Testing
+
+* HTML
+    
+    No errors were returned when checking through the official [W3C validator](https://validator.w3.org/) tool.
+
+* CSS
+
+    No errors were found when checking through the offical [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) tool.
+
+## Unfixed Bugs
+
+Currently, there are no major unfixed bugs present in the code. The site operates as intended on multiple platforms.
+
+# Deployment
+
+* The DoggyWoggy site was deployed to GitHub pages. The steps to deploy are below:
+
+   
 
 
 
