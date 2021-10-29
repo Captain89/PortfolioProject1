@@ -64,6 +64,18 @@ The website is targeted at dog owners who want to join in social walks with othe
 
     There are no further features left to implement at this time.
 
+# User experience UX / UI
+
+## colors used
+
+* Contrasting black and white, and multi shades of grey were implemented into the design structure of the site. This was to ensure good visibility and accessibility whilst using the site.
+
+## Fonts used
+
+* The main logo, and any headers used, contain the 'Lobster' font. This was a design idea, and not inspired from anything else. The main link to this font from Google Fonts can be found in the Credits section of this readme document.
+
+* The main body of text, including the navbar menu links, about us section, meet up times, and enquiry form, are all 'Roboto' font, again this was a design idea, but advised by Google Fonts as a good contrast due to it working well with the aforementioned 'Lobster' font.
+
 
 # Testing
 
@@ -92,6 +104,14 @@ Furthermore, the Join in section 'Cards' stack upon each other when the screen w
 
     No errors were found when checking through the offical [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) tool.
 
+## Site Bugs
+
+During testing and build stages, some minor bugs appeared that took time to resolve. Dev Tools were used to locate and implement a fix, these were:
+
+* Came across bug where font for hero-image overlay text would remain large when testing site dimensions via media query and responsiveness. The fix for this was changing the Rem value to a lower value, so to 1rem, from 1.5rem in the media query css rule. The text was now contained as the screen size gets smaller.
+
+* Originally, the navbar section had a different animation style applied to it, (other than the current basic bold one) where when hovered over, a 0.5 second rule underline would follow the text, from left to right. This feature was removed during the early stages of testing, because it caused width and dimension errors where the navbar could not be re-sized if needed, and also the main logo h1 could not be moved using margin or padding.
+
 ## Unfixed Bugs
 
 Currently, there are no major unfixed bugs present in the code. The site operates as intended on multiple platforms.
@@ -100,7 +120,9 @@ Currently, there are no major unfixed bugs present in the code. The site operate
 
 * The DoggyWoggy site was deployed to GitHub pages. The steps used to deploy the site are below:
 
-   Used settings in the repository to locate and activate the Main Branch, this generated a 'pre-build' of the intended site. Once refreshed the browser provided a working link which would now display on the screen for the completed site.
+    * In the GitHub repository, navigate to the Settings tab.
+    * From the source section drop-down menu, select the Master Branch.
+    * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live site link can be found here: https://captain89.github.io/PortfolioProject1/
 
@@ -120,6 +142,10 @@ The live site link can be found here: https://captain89.github.io/PortfolioProje
 This is also commented in the [CSS](/workspace/PortfolioProject1/assets/css/style.css) file itself at the actual location of the working code, line 205.
 
 * The icon images in the footer were used from [FontAwesome.com](https://fontawesome.com/).
+
+## Other Resources
+
+* Currently none used.
 
 
 
