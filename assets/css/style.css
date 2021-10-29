@@ -79,7 +79,7 @@ body {
 
 #img-text {
     text-align: center;
-    color: rgb(50, 50, 50);
+    color: rgb(30, 30, 30);
     font-size: 30px;
     font-weight: bold;
     font-family: lobster;
@@ -102,6 +102,7 @@ body {
 
 #about-us {
     padding-top: 1rem;
+    text-align: center;
     font-size: 47px;
     font-family: lobster, roboto;
     letter-spacing: 1px;
@@ -197,7 +198,7 @@ body {
 
 /*card text content margin styling*/
 
-#card-text {
+.card-text {
     margin-left: auto;
 
 }
@@ -211,7 +212,7 @@ body {
     max-width: 130px;
     height: 150px;
     border-radius: 2px;
-    background-color: rgba(255, 140, 105, 0.5);
+    background-color: rgba(255, 140, 105, 0.7);
 }
 
 #woods {
@@ -219,7 +220,7 @@ body {
     height: 150px;
     border-radius: 2px;
     color: #fafafa;
-    background-color: rgba(255, 140, 105, 0.5);
+    background-color: rgba(255, 140, 105, 0.7);
     
 }
 
