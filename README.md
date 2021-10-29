@@ -4,7 +4,7 @@
 
 The website is targeted at dog owners who want to join in social walks with others and their dogs, instead of taking their pets on a walk alone. The site is designed to encourage users to see the different walks that we currently offer, and book or enquire with us about our services in relation to dog walking as a group.
 
-<img src="/workspace/PortfolioProject1/assets/docs/screenshots/responsive.PNG">
+![Responsive screenshot](assets/docs/screenshots/responsive.PNG)
 
 # Features
 
