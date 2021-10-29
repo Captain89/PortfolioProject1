@@ -143,7 +143,7 @@ body {
 .row h1 {
     width: 100%;
     text-align: center;
-    text-emphasis-style: bold;
+
 }
 
 
@@ -219,7 +219,6 @@ body {
     height: 150px;
     border-radius: 2px;
     color: #fafafa;
-    text-shadow: rgb(53, 53, 53);
     background-color: rgba(255, 140, 105, 0.5);
     
 }
@@ -228,7 +227,6 @@ body {
 
 #card2 h3 {
     color: #fafafa;
-    text-shadow: rgb(53, 53, 53);
 }
 
 /*cards themselves group sizing*/
